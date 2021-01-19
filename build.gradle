@@ -1,0 +1,42 @@
+/*
+ * This file contains the Gradle setup for a simple Java application project.
+ *
+ * For more details take a look at the 'Building Java & JVM projects' chapter in the Gradle
+ * User Manual available at https://docs.gradle.org/6.8/userguide/building_java_projects.html
+ */
+
+plugins {
+  // Apply the application plugin to add support for building a CLI application
+  id 'application'
+}
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+  // Use jcenter for resolving your dependencies.
+  // You can declare any Maven/Ivy/file repository here.
+  jcenter()
+}
+
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(11)
+  }
+}
+
+dependencies {
+  // JUnit Jupiter API for testing.
+  testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+
+  // JUnit Jupiter Engine for testing.
+  testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+application {
+  // Define the main class for the application
+  mainClass.set('hellos.Hellos')
+}
+
+test {
+  // Use junit platform for unit tests
+  useJUnitPlatform()
+}
