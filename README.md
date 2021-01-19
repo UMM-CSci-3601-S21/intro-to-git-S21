@@ -17,7 +17,7 @@
 > We should leave these notes in the copy in the "starter"
 > repository so it's there each semester when we fork this.
 
-[![Continuous integration status](../../workflows/Java%20CI/badge.svg)](../../actions?query=workflow%3A"Java+CI")
+[![Continuous integration status](../../workflows/Java/badge.svg)](../../actions?query=workflow%3A"Java")
 [![BCH compliance](https://bettercodehub.com/edge/badge/UMM-CSci-3601-S21/intro-to-git-S21?branch=main)](https://bettercodehub.com/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/UMM-CSci-3601-S21/intro-to-git-S21.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601-S21/intro-to-git-S21/alerts/)
 
