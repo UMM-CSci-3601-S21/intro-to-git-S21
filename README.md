@@ -1,27 +1,25 @@
 # Introduction to `git` <!-- omit in toc -->
 
-!["Broken" badge to remind us to fix the URLs on the "real" badges](https://img.shields.io/badge/FIX_BADGES-Badges_below_need_to_be_updated-red)
-
 > :bangbang: :mage_woman: **Faculty**
 >
 > Each semester _after creating the instance in GitHub Classroom_,
 > we need to (in the GitHub Classroom "fork"):
 >
-> * [ ] Fix the URLs in the badges
+> * [x] Fix the URLs in the badges
 > below so they point to that semester's repository instead of the
 > "starter" repo.
 > * [ ] Make sure we've added every student in the current semester
 > to that semester's organization so they'll have permission to push to
 > this repo.
-> * [ ] [Turn off branch protection](FACULTY_BRANCH_PROTECTION_SETTINGS.md) so that students can `push`.
+> * [x] [Turn off branch protection](FACULTY_BRANCH_PROTECTION_SETTINGS.md) so that students can `push`.
 > * [ ] Remove this note and the broken badge above in the fork.
 >
 > We should leave these notes in the copy in the "starter"
 > repository so it's there each semester when we fork this.
 
 [![Continuous integration status](../../workflows/Java%20CI/badge.svg)](../../actions?query=workflow%3A"Java+CI")
-[![BCH compliance](https://bettercodehub.com/edge/badge/UMM-CSci-3601/intro-to-git?branch=main)](https://bettercodehub.com/)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/UMM-CSci-3601/intro-to-git.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601/intro-to-git/alerts/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/UMM-CSci-3601-S21/intro-to-git-S21?branch=main)](https://bettercodehub.com/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/UMM-CSci-3601-S21/intro-to-git-S21.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/UMM-CSci-3601-S21/intro-to-git-S21/alerts/)
 
 * [Background](#background)
   * [Resources for learning `git` and friends](#resources-for-learning-git-and-friends)
