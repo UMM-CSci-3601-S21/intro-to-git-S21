@@ -1,4 +1,4 @@
-## Thomas Dahgren
+## Thomas Dahlgren
 
 * I prefer to be called "Thomas".
 * My preferred pronouns are he/him/his.
