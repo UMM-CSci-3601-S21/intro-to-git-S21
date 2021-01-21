@@ -2,4 +2,4 @@
 
 * I use he / him / his pronouns.
 * I am a computer science major.
-* [Check out my website right here!](www.google.com)
+* [Check out my github right here!](https://github.com/biruk741)
