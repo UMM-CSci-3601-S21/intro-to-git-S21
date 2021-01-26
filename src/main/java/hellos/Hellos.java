@@ -19,17 +19,17 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-
-    
     builder.append(cassieSaysHello());
+    
     builder.append(DanteSaysHello());
+    
     builder.append(jeffSaysHello());
 
     builder.append(joshSaysHello());
 
     builder.append(kkSaysHello());
+    
     builder.append(nicSaysHello());
-
 
     return builder.toString();
   }
@@ -46,7 +46,6 @@ public class Hellos {
     return "KK says 'Hello!'\n";
   }
 
-
   private String DanteSaysHello() {
     return "Dante says 'Hello!'\n";
   }
@@ -58,5 +57,4 @@ public class Hellos {
   private String cassieSaysHello(){
     return "Cassie says 'Hello!'\n";
   }
-
 }
