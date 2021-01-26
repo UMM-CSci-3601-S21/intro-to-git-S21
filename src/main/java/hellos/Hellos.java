@@ -25,14 +25,20 @@ public class Hellos {
     builder.append(joshSaysHello());
     builder.append(joshuaSaysHello());
     builder.append(kkSaysHello());
+    builder.append(lloydSaysHello());
     builder.append(nicSaysHello());
     builder.append(thomasSaysHello());
     
     return builder.toString();
   }
 
+  private String lloydSaysHello() {
+    return "Lloyd says 'Wassup!'\n";
+  }
+  
   private static String joshSaysHello() {
     return "Josh says 'Hello World!'\n";
+
   }
 
   private String nicSaysHello() {
