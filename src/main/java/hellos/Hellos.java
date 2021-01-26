@@ -21,6 +21,7 @@ public class Hellos {
 
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
+    builder.append(susanSaysHi());
 
     return builder.toString();
   }
