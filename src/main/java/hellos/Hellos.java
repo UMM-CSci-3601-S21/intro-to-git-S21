@@ -33,4 +33,8 @@ public class Hellos {
     return "KK says 'Hello!'\n";
   }
 
+  private String aliceSaysHello(){
+    return "Alice says 'Hello!'\n";
+  }
+
 }
