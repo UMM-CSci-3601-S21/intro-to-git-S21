@@ -23,9 +23,6 @@ public class Hellos {
     
     builder.append(cassieSaysHello());
     builder.append(DanteSaysHello());
-
-
-    
     builder.append(jeffSaysHello());
 
     builder.append(joshSaysHello());
