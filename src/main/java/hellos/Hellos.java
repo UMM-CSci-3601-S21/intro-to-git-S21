@@ -60,6 +60,5 @@ public class Hellos {
 
   private String cassieSaysHello(){
     return "Cassie says 'Hello!'\n";
-
   }
 }
