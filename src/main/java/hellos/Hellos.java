@@ -19,10 +19,15 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+    builder.append(jacobSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
+  }
+
+  private static String jacobSaysHello() {
+    return "Jacob says 'Salutations!'\n";
   }
 
   private String nicSaysHello() {
