@@ -34,4 +34,8 @@ public class Hellos {
     return "KK says 'Hello!'\n";
   }
 
+  private String susanSaysHi() {
+    return "Susan says 'Welcome!'\n";
+  }
+
 }
