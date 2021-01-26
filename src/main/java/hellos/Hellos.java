@@ -20,9 +20,14 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(kkSaysHello());
+    builder.append(lloydSaysHello());
     builder.append(nicSaysHello());
 
     return builder.toString();
+  }
+
+  private String lloydSaysHello() {
+    return "Lloyd says 'Wassup!'\n";
   }
 
   private String nicSaysHello() {
