@@ -32,7 +32,6 @@ public class Hellos {
     return builder.toString();
   }
 
- 
   private static String jacobSaysHello() {
     return "Jacob says 'Salutations!'\n";
   }
