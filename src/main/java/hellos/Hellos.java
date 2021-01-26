@@ -32,7 +32,7 @@ public class Hellos {
     return builder.toString();
   }
 
-  
+ 
   private static String jacobSaysHello() {
     return "Jacob says 'Salutations!'\n";
   }
@@ -60,7 +60,6 @@ public class Hellos {
   private String thomasSaysHello() {
     return "Thomas says 'Hola!'\n";
   }
-
 
   private String jadynSaysHello() {
     return "Jadyn says 'Hi!'\n";
