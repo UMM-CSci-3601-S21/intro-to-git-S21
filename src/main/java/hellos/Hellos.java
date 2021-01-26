@@ -19,13 +19,11 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
-
     builder.append(birukSaysHello());
     builder.append(cassieSaysHello());
     builder.append(jeffSaysHello());
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
-
 
     return builder.toString();
   }
