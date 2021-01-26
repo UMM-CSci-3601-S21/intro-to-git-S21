@@ -19,6 +19,8 @@ public class Hellos {
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
 
+
+    
     builder.append(cassieSaysHello());
     builder.append(DanteSaysHello());
 
@@ -26,11 +28,17 @@ public class Hellos {
     
     builder.append(jeffSaysHello());
 
+    builder.append(joshSaysHello());
+
     builder.append(kkSaysHello());
     builder.append(nicSaysHello());
 
 
     return builder.toString();
+  }
+
+  private static String joshSaysHello() {
+    return "Josh says 'Hello World!'\n";
   }
 
   private String nicSaysHello() {
