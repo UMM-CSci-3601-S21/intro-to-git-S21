@@ -20,17 +20,11 @@ public class Hellos {
     StringBuilder builder = new StringBuilder();
 
     builder.append(cassieSaysHello());
-    
     builder.append(DanteSaysHello());
-    
     builder.append(jeffSaysHello());
-
     builder.append(joshSaysHello());
-
     builder.append(kkSaysHello());
-    
     builder.append(nicSaysHello());
-
     return builder.toString();
   }
 
