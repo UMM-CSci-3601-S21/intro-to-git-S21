@@ -17,12 +17,12 @@ public class Hellos {
   }
 
   public String generateOutput() {
-
     StringBuilder builder = new StringBuilder();
-
+    
     builder.append(aliceSaysHello());
     builder.append(cassieSaysHello());
     builder.append(danteSaysHello());
+    builder.append(elenaSaysHello());
     builder.append(halleySaysHi());
     builder.append(isabelleSaysHello());
     builder.append(jacobSaysHello());
@@ -40,7 +40,7 @@ public class Hellos {
     builder.append(thomasSaysHello());
     return builder.toString();
   }
-
+  
   private static String jacobSaysHello() {
     return "Jacob says 'Salutations!'\n";
   }
@@ -107,6 +107,10 @@ public class Hellos {
 
   private String aliceSaysHello() {
     return "Alice says 'Hello!'\n";
+  }
+  
+  private String elenaSaysHello() {
+    return "Elena says 'Xin chào!'\n";
   }
 
   private String cassieSaysHello() {
