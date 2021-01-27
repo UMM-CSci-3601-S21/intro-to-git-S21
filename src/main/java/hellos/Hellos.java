@@ -27,8 +27,10 @@ public class Hellos {
     builder.append(justinSaysHello());
     builder.append(kkSaysHello());
     builder.append(lloydSaysHello());
+    builder.append(natashaSaysHello());
     builder.append(nicSaysHello());
     builder.append(thomasSaysHello());
+
     return builder.toString();
   }
 
@@ -56,6 +58,10 @@ public class Hellos {
     return "Dante says 'Hello!'\n";
   }
 
+  private String natashaSaysHello() {
+    return "Natasha says 'Hi!'\n";
+  }
+
   private String thomasSaysHello() {
     return "Thomas says 'Hola!'\n";
   }
@@ -75,4 +81,5 @@ public class Hellos {
   private String cassieSaysHello() {
     return "Cassie says 'Hello!'\n";
   }
+
 }
