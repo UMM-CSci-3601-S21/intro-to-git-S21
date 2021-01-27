@@ -17,6 +17,8 @@ public class Hellos {
   }
 
   public String generateOutput() {
+    StringBuilder builder = new StringBuilder();
+    
     builder.append(aliceSaysHello());
     builder.append(cassieSaysHello());
     builder.append(danteSaysHello());
