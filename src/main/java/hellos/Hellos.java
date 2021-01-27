@@ -34,7 +34,7 @@ public class Hellos {
     builder.append(natashaSaysHello());
     builder.append(nicSaysHello());
     builder.append(richardSaysHello());
-    builder.append(thomasSaysHello())
+    builder.append(thomasSaysHello());
       
     return builder.toString();
   }
