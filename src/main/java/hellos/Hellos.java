@@ -18,11 +18,13 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
+
     builder.append(cassieSaysHello());
-    builder.append(DanteSaysHello());
+    builder.append(danteSaysHello());
     builder.append(jacobSaysHello());
     builder.append(jeffSaysHello());
     builder.append(joshSaysHello());
+    builder.append(justinSaysHello());
     builder.append(kkSaysHello());
     builder.append(lloydSaysHello());
     builder.append(natashaSaysHello());
@@ -32,7 +34,6 @@ public class Hellos {
     return builder.toString();
   }
 
-  
   private static String jacobSaysHello() {
     return "Jacob says 'Salutations!'\n";
   }
@@ -40,7 +41,7 @@ public class Hellos {
   private String lloydSaysHello() {
     return "Lloyd says 'Wassup!'\n";
   }
-  
+
   private static String joshSaysHello() {
     return "Josh says 'Hello World!'\n";
   }
@@ -52,8 +53,8 @@ public class Hellos {
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
-  
-  private String DanteSaysHello() {
+
+  private String danteSaysHello() {
     return "Dante says 'Hello!'\n";
   }
 
@@ -65,11 +66,15 @@ public class Hellos {
     return "Thomas says 'Hola!'\n";
   }
 
-  private String jeffSaysHello(){
+  private String justinSaysHello() {
+    return "Justin says 'Oh...well hello there!'\n";
+  }
+
+  private String jeffSaysHello() {
     return "Jeff says 'Hello!'\n";
   }
 
-  private String cassieSaysHello(){
+  private String cassieSaysHello() {
     return "Cassie says 'Hello!'\n";
   }
 
