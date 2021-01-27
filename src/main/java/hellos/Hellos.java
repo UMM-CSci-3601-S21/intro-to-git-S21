@@ -17,11 +17,11 @@ public class Hellos {
   }
 
   public String generateOutput() {
-    StringBuilder builder = new StringBuilder();
-
+    StringBuilder builder = new StringBuilder();  
     builder.append(cassieSaysHello());
     builder.append(danteSaysHello());
     builder.append(jacobSaysHello());
+    builder.append(jadynSaysHello());
     builder.append(jeffSaysHello());
     builder.append(joshSaysHello());
     builder.append(justinSaysHello());
@@ -66,6 +66,10 @@ public class Hellos {
     return "Thomas says 'Hola!'\n";
   }
 
+  private String jadynSaysHello() {
+    return "Jadyn says 'Hi!'\n";
+  }
+    
   private String justinSaysHello() {
     return "Justin says 'Oh...well hello there!'\n";
   }
