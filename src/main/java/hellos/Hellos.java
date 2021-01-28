@@ -17,12 +17,14 @@ public class Hellos {
   }
 
   public String generateOutput() {
-
     StringBuilder builder = new StringBuilder();
 
+    builder.append(aliceSaysHello());
     builder.append(blakeSaysHello());
     builder.append(cassieSaysHello());
     builder.append(danteSaysHello());
+    builder.append(elenaSaysHello());
+    builder.append(halleySaysHi());
     builder.append(isabelleSaysHello());
     builder.append(jacobSaysHello());
     builder.append(jadynSaysHello());
@@ -31,14 +33,17 @@ public class Hellos {
     builder.append(joshuaSaysHello());
     builder.append(justinSaysHello());
     builder.append(kkSaysHello());
+    builder.append(kyleSaysHello());
     builder.append(lloydSaysHello());
     builder.append(natashaSaysHello());
     builder.append(nicSaysHello());
+    builder.append(noahSaysHello());
     builder.append(richardSaysHello());
     builder.append(thomasSaysHello());
+    
     return builder.toString();
   }
-
+  
   private static String jacobSaysHello() {
     return "Jacob says 'Salutations!'\n";
   }
@@ -57,6 +62,10 @@ public class Hellos {
 
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
+  }
+
+  private String kyleSaysHello() {
+    return "Kyle says 'Salutations!'\n";
   }
 
   private String isabelleSaysHello() {
@@ -79,6 +88,10 @@ public class Hellos {
     return "Blake says 'What's up!'\n";
   }
 
+  private String halleySaysHi() {
+    return "Halley says 'Yo!'\n";
+  }
+
   private String richardSaysHello(){
     return "Richard says 'Hiya!'\n";
   }
@@ -91,6 +104,10 @@ public class Hellos {
     return "Justin says 'Oh...well hello there!'\n";
   }
 
+  private String noahSaysHello() {
+    return "Noah says 'Hey!'\n";
+  }
+
   private String joshuaSaysHello() {
     return "Joshua says 'Hello!'\n";
   }
@@ -99,8 +116,16 @@ public class Hellos {
     return "Jeff says 'Hello!'\n";
   }
 
+  private String aliceSaysHello() {
+    return "Alice says 'Hello!'\n";
+  }
+  
+  private String elenaSaysHello() {
+    return "Elena says 'Xin chào!'\n";
+  }
+
   private String cassieSaysHello() {
     return "Cassie says 'Hello!'\n";
   }
-  
+
 }
