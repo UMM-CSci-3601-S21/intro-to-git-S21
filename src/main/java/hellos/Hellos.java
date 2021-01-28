@@ -18,15 +18,39 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
+
+    builder.append(aliceSaysHello());
+    builder.append(blakeSaysHello());
     builder.append(cassieSaysHello());
-    builder.append(DanteSaysHello());
+    builder.append(danteSaysHello());
+    builder.append(elenaSaysHello());
+    builder.append(halleySaysHi());
+    builder.append(isabelleSaysHello());
+    builder.append(jacobSaysHello());
+    builder.append(jadynSaysHello());
     builder.append(jeffSaysHello());
     builder.append(jonahSaysHello());
     builder.append(joshSaysHello());
+    builder.append(joshuaSaysHello());
+    builder.append(justinSaysHello());
     builder.append(kkSaysHello());
+    builder.append(kyleSaysHello());
+    builder.append(lloydSaysHello());
+    builder.append(natashaSaysHello());
     builder.append(nicSaysHello());
+    builder.append(noahSaysHello());
+    builder.append(richardSaysHello());
     builder.append(thomasSaysHello());
+    
     return builder.toString();
+  }
+  
+  private static String jacobSaysHello() {
+    return "Jacob says 'Salutations!'\n";
+  }
+
+  private String lloydSaysHello() {
+    return "Lloyd says 'Wassup!'\n";
   }
 
   private static String joshSaysHello() {
@@ -40,25 +64,79 @@ public class Hellos {
   private String kkSaysHello() {
     return "KK says 'Hello!'\n";
   }
+
+  private String kyleSaysHello() {
+    return "Kyle says 'Salutations!'\n";
+  }
+
+  private String isabelleSaysHello() {
+    return "Isabelle says 'Hi!'\n";
+  }
   
-  private String DanteSaysHello() {
+  private String danteSaysHello() {
     return "Dante says 'Hello!'\n";
+  }
+
+  private String natashaSaysHello() {
+    return "Natasha says 'Hi!'\n";
   }
 
   private String thomasSaysHello() {
     return "Thomas says 'Hola!'\n";
-
   }
 
-   private String cassieSaysHello(){
+  private String blakeSaysHello() {
+    return "Blake says 'What's up!'\n";
+  }
+
+   private String cassieSaysHello() {
     return "Cassie says 'Hello!'\n";
   }
   
-  private String jeffSaysHello(){
+  private String jeffSaysHello() {
     return "Jeff says 'Hello!'\n";
   }
   
   private String jonahSaysHello() {
     return "Jonah says 'Hi!'\n";
+
+  private String halleySaysHi() {
+    return "Halley says 'Yo!'\n";
+  }
+
+  private String richardSaysHello() {
+    return "Richard says 'Hiya!'\n";
+  }
+
+  private String jadynSaysHello() {
+    return "Jadyn says 'Hi!'\n";
+  }
+
+  private String justinSaysHello() {
+    return "Justin says 'Oh...well hello there!'\n";
+  }
+
+  private String noahSaysHello() {
+    return "Noah says 'Hey!'\n";
+  }
+
+  private String joshuaSaysHello() {
+    return "Joshua says 'Hello!'\n";
+  }
+
+  private String jeffSaysHello() {
+    return "Jeff says 'Hello!'\n";
+  }
+
+  private String aliceSaysHello() {
+    return "Alice says 'Hello!'\n";
+  }
+  
+  private String elenaSaysHello() {
+    return "Elena says 'Xin chào!'\n";
+  }
+
+  private String cassieSaysHello() {
+    return "Cassie says 'Hello!'\n";
   }
 }
