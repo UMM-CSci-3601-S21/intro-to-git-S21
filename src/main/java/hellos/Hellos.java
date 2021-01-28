@@ -18,8 +18,9 @@ public class Hellos {
 
   public String generateOutput() {
     StringBuilder builder = new StringBuilder();
-    
+
     builder.append(aliceSaysHello());
+    builder.append(blakeSaysHello());
     builder.append(cassieSaysHello());
     builder.append(danteSaysHello());
     builder.append(elenaSaysHello());
@@ -39,6 +40,7 @@ public class Hellos {
     builder.append(noahSaysHello());
     builder.append(richardSaysHello());
     builder.append(thomasSaysHello());
+    
     return builder.toString();
   }
   
@@ -82,6 +84,10 @@ public class Hellos {
     return "Thomas says 'Hola!'\n";
   }
 
+  private String blakeSaysHello() {
+    return "Blake says 'What's up!'\n";
+  }
+
   private String halleySaysHi() {
     return "Halley says 'Yo!'\n";
   }
@@ -121,4 +127,5 @@ public class Hellos {
   private String cassieSaysHello() {
     return "Cassie says 'Hello!'\n";
   }
+
 }
