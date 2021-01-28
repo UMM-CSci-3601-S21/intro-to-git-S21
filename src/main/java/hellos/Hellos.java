@@ -41,6 +41,7 @@ public class Hellos {
     builder.append(nicSaysHello());
     builder.append(noahSaysHello());
     builder.append(richardSaysHello());
+    builder.append(susanSaysHi());
     builder.append(thomasSaysHello());
     
     return builder.toString();
@@ -88,6 +89,10 @@ public class Hellos {
 
   private String natashaSaysHello() {
     return "Natasha says 'Hi!'\n";
+  }
+
+  private String susanSaysHi() {
+    return "Susan says 'Welcome!'\n";
   }
 
   private String thomasSaysHello() {
